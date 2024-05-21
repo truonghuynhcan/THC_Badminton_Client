@@ -1,0 +1,137 @@
+.header-bottom .nav-link {
+  text-transform: uppercase;
+  color: white !important;
+  font-weight: 500;
+}
+
+.form-control:focus {
+  border-color: #ffa168 !important;
+  box-shadow: 0 0 0.25rem #ffa168 !important;
+}
+
+.carousel .position-absolute {
+  left: 150px !important;
+  width: 60vh;
+}
+
+.cate-list .card {
+  height: 100%;
+}
+.cate-list img {
+  height: 100%;
+}
+
+.products strong {
+  color: #c90000;
+}
+.products .bg-sale {
+  padding: 15px 5px;
+  background-color: #c90000;
+  color: white;
+  border-radius: 0 0 10px 0;
+}
+
+.news .card {
+  box-shadow: 0 2px 5px 1px #ffa168;
+}
+.news h5:hover {
+  color: #ffa168;
+}
+.news .day {
+  width: fit-content;
+  padding: 0 10px;
+  border-radius: 20px;
+  background-color: #ffa168;
+  color: white;
+}
+
+table .btn-primary {
+  color: #ffa168;
+  background: none !important;
+  border: 1px solid #ffa168;
+  padding: 0px 3px !important;
+}
+table .btn-primary:hover {
+  color: #ffffff;
+  background: #ffa168 !important;
+  border: 1px solid #ffa168;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 70px !important;
+  height: auto !important;
+}
+
+/* btn input number start*/
+.buttons_added {
+  opacity: 1;
+  display: inline-block;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  white-space: nowrap;
+  vertical-align: top;
+}
+.is-form {
+  overflow: hidden;
+  position: relative;
+  background-color: #f9f9f9;
+  height: 2.2rem;
+  width: 1.9rem;
+  padding: 0;
+  text-shadow: 1px 1px 1px #fff;
+  border: 1px solid #ddd;
+}
+.is-form:focus,
+.input-text:focus {
+  outline: none;
+}
+.is-form.minus {
+  border-radius: 4px 0 0 4px;
+}
+.is-form.plus {
+  border-radius: 0 4px 4px 0;
+}
+.input-qty {
+  background-color: #fff;
+  height: 2.2rem;
+  text-align: center;
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  padding: 0;
+}
+.input-qty::-webkit-outer-spin-button,
+.input-qty::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* btn input number end*/
+
+  .switch-mode {
+	display: block;
+	min-width: 50px;
+	height: 25px;
+	border-radius: 25px;
+	background: gray;
+	cursor: pointer;
+	position: relative;
+}
+  .switch-mode::before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	width: calc(25px - 4px);
+	background: #E95211;
+	border-radius: 50%;
+	transition: all .3s ease;
+}
+ #switch-mode:checked + .switch-mode::before {
+	left: calc(100% - (25px - 4px) - 2px);
+}
